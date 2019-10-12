@@ -47,6 +47,7 @@ body {
     border: 2px solid #cccccc;
   }
 
+
   .links {
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: relative;
@@ -72,13 +73,46 @@ body {
     text-align: center;
   }
 
+  /*  for the smaller content pages */
+  
+  .Title1s {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    left: 200px; /*line up with abc*/
+    height: 50px;  
+    line-height: 50px;    
+    width: 300px;  
+    
+    font-size: 22px;
+    font-weight: bold;
+    background : #4aaaa5;
+    color: #efeee7;
+    text-align: center;
+  }
+
+
   .OptionsMenu {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 16px;
     position: relative;
     top:-50px;
     /* left: 350px; */
-    left: 860px;
+    left: 860px; /* for xyz update*/
+    height: 50px;  
+    line-height: 50px;
+    width: 200px;  
+    color: #777777;
+    background: #ffffff;
+  } 
+
+  /* for smaller header  */
+  .OptionsMenu2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    position: relative;
+    top:-50px;
+    /* left: 350px; */
+    left: 660px; /* for abc update*/
     height: 50px;  
     line-height: 50px;
     width: 200px;  
@@ -100,6 +134,20 @@ body {
       border: 2px solid  #dddddd;
     }
   
+    .InfoBody {
+        padding: 15px;
+        position:relative;
+        left: 200px; /*line up with abc*/
+        font-size: 16px;
+        min-height: 300px;
+        background: #ffffff;
+        border-block-color:;
+        width : 660px;    
+        margin-bottom: 60px;
+        line-height: 150%;
+        border: 2px solid  #dddddd;
+      }
+    
   .Title2 {
     font-family: 'Georgia', Times, Times New Roman, serif;    
     font-size: 22px;
