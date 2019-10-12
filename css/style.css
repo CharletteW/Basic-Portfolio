@@ -1,0 +1,130 @@
+
+/* 
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+Main content border color: #dddddd
+*/
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+ 
+
+body {
+    /* padding: 220;
+    margin: 20; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
+    font-size: 18px;
+    color: #777777;
+    background: #efeee7;
+    border-block-color: #dddddd;
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0 ;
+    /* border: #dddddd; */
+    background-image:url('.images/circle-blues.png');
+
+  }
+
+  .Heading {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    height: 50px;  
+    width: 100%;
+    color: #777777;
+    background: #ffffff;
+    /* background: blue; */
+    margin-bottom: 20px;
+    /* border-block-color: #cccccc;    */
+    border: 2px solid #cccccc;
+  }
+
+  .links {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    height: 50px;  
+    width: 100%;
+    color: #777777;
+    background: #ffffff;
+    text-decoration: none;
+  }
+    
+  .Title1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    left: 100px; /*line up with XYZ*/
+    height: 50px;  
+    line-height: 50px;    
+    width: 300px;  
+    
+    font-size: 22px;
+    font-weight: bold;
+    background : #4aaaa5;
+    color: #efeee7;
+    text-align: center;
+  }
+
+  .OptionsMenu {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    position: relative;
+    top:-50px;
+    /* left: 350px; */
+    left: 860px;
+    height: 50px;  
+    line-height: 50px;
+    width: 200px;  
+    color: #777777;
+    background: #ffffff;
+  } 
+
+  .BioBody {
+      padding: 15px;
+      position:relative;
+      left: 100px; /*line up with XYZ*/
+      font-size: 16px;
+      min-height: 300px;
+      background: #ffffff;
+      border-block-color:;
+      width : 960px;    
+      margin-bottom: 60px;
+      line-height: 150%;
+      border: 2px solid  #dddddd;
+    }
+  
+  .Title2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;    
+    font-size: 22px;
+    height: 50px;  
+    font-weight: bold;
+    color : #4aaaa5;
+    background: #ffffff;
+    border-block-color: #dddddd;
+    text-align: left;
+  }
+  
+  #bio-image {
+    float: left;
+    padding: 15px;
+  }
+
+  .Footer {  
+    position: sticky;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
+    height: 50px;  
+    line-height: 50px;
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+    color: #ffffff;
+    background: #666666; 
+    border-top: 8px solid #4aaaa5;
+  }
