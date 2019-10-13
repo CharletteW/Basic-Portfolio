@@ -172,6 +172,17 @@ body {
     border-top: 8px solid #4aaaa5;
   }
 
+  .NameBox {
+    width : 660px;    
+  }
+  .EmailBox {
+    width : 660px;    
+  }
+  .MsgBox {
+    height: 200px;
+    width : 660px;    
+  }
+  /* <!-- ***** NEED TO FIX IT SO THAT THE IMAGES ARE IN 2 ROWS. ***** --> */
   .container {
     position: relative;
   }
