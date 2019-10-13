@@ -198,7 +198,7 @@ body {
   .container {
     position: relative;
   }
-  #lnk-image {
+  .lnk-image {
     /* float:left; */
     /* width:50%; */
     margin: 0 auto;
@@ -222,7 +222,7 @@ body {
     border: 0 0 0 0; */
   }
 
-    #lnk-image2 {
+  .lnk-image2 {
     position: relative;
     left:270px; 
     bottom: 250px; 
